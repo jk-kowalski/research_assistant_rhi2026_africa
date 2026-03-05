@@ -1,0 +1,16 @@
+name: rhi2026_africa.yaml
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - geopandas
+  - numpy
+  - sqlalchemy
+  - psycopg2
+  - rasterio
+  - jupyterlab
+  - ipykernel
+  - pip
+  - pip:
+      - some-pip-only-package
